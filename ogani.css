@@ -1,0 +1,55 @@
+body{
+    border: 0;
+    margin: 0;
+    text-align: left;
+}
+#topo{
+    background-color: rgb(163, 163, 163);
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    align-items: center;
+}
+#main{
+    border: solid;
+    display: grid;
+    grid-column: span;
+    grid-template-columns: 6.0fr 4.5fr  1.3fr  1.3fr  1.3fr;
+    grid-template-rows: 80px 80px 431px 271px; 
+    margin-right: 20%;
+    margin-left: 20%;
+} 
+#logo{
+    align-items: left;
+}
+
+#icon{
+    border: solid;   
+}
+#logo{
+    border: solid;
+}
+#nav{
+    border: solid;
+}
+#menu{
+    border: solid;
+}
+#busca{
+    border: solid;
+}
+#banner{
+    border: solid;
+}
+#prod1{
+    border: solid; 
+} 
+#prod2{
+    border: solid;
+}
+#prod3{
+    border: solid;
+}
+#prod4{
+    border: solid;
+}
