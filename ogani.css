@@ -2,23 +2,30 @@ body{
     border: 0;
     margin: 0;
     text-align: left;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 #topo{
+    display: flex;
     background-color: rgb(163, 163, 163);
     width: 100%;
     height: 1cm;
     text-align: center;
     align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+#topo tr{
+    
 }
 #main{
     border: solid;
     display: grid;
-    grid-column: span;
-    grid-template-columns: 6.0fr 4.5fr  1.3fr  1.3fr  1.3fr;
+    grid-template-columns: 3.0fr 3.5fr  2.0fr .3fr;
     grid-template-rows: 80px 80px 431px 271px; 
-    margin-right: 20%;
-    margin-left: 20%;
+   
 } 
+
 #logo{
     align-items: left;
 }
@@ -30,7 +37,12 @@ body{
     border: solid;
 }
 #nav{
+    font: bold;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
     border: solid;
+    margin-top: 5%;
 }
 #menu{
     border: solid;
@@ -52,4 +64,18 @@ body{
 }
 #prod4{
     border: solid;
+}
+.navbt{
+    justify-content: space-around;
+    transition: .1s;
+}
+.navbt:hover{
+   color: chartreuse;
+}
+#linguagem{
+    position: absolute;
+    top: 5ch;
+    height: 100px;
+    width: 60px;
+    background-color: rgb(68, 63, 63);
 }
