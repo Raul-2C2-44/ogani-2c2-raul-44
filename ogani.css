@@ -90,11 +90,11 @@ body{
     height: 60px;
     width: 80px;
     background-color: rgb(68, 63, 63);
-    transition: 0.2;
-    opacity: 0;
+   
+    
 }
-#lingua:active{
-opacity: 0;
+#lingua:active> #linguagem{
+   opacity: 0;
 }
 #produtos1{
     display: flex;
@@ -137,9 +137,75 @@ opacity: 0;
     width: 27vh;
 }
 #prod4{
-    grid-column: 4;
-    grid-row: 4;
+   
     border: solid;
     height: 27vh; 
     width: 27vh;
+}
+#featuretxt{
+    margin-top: 5ch;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    font-size: 250%;
+}
+#featureprod{
+    font-size: 120%;
+    width: 2.0fr;
+    margin-top: 2ch;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#produtosa{
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
+    grid-template-rows: 5.0fr 5.0fr;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8ch;
+}
+#nameprod{
+    border: solid;
+    height: 10vh; 
+    width: 27vh;
+}
+#nameprod {
+    font-size: 115%;
+    list-style: none;
+    text-align: center;
+}
+#produtosb{
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
+    grid-template-rows: 5.0fr 5.0fr;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5ch;
+}
+#produtosname{
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
+    grid-template-rows: 5.0fr 5.0fr;
+    display: flex;
+    justify-content: space-between;
+}
+#anuncio{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 50.0fr 50.0fr;
+    grid-template-rows: 20.0fr;
+}
+#tabela3{
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 30.0fr 30.0fr 30fr;
+    grid-template-rows: 5fr 5fr 5fr 5fr;
 }
