@@ -84,10 +84,17 @@ body{
 }
 #linguagem{
     position: absolute;
+    display: flex;
+    left: 63.8%;
     top: 5ch;
-    height: 100px;
-    width: 60px;
+    height: 60px;
+    width: 80px;
     background-color: rgb(68, 63, 63);
+    transition: 0.2;
+    opacity: 0;
+}
+#lingua:active{
+opacity: 0;
 }
 #produtos1{
     display: flex;
