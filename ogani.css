@@ -2,7 +2,7 @@ body{
     border: 0;
     margin: 0;
     text-align: left;
-   
+  
 }
 #topo{
     
@@ -22,8 +22,8 @@ body{
 #main{
     border: solid;
     display: grid;
-    grid-template-columns: 3.0fr 3.5fr  2.0fr .3fr;
-    grid-template-rows: 80px 80px 431px 271px; 
+    grid-template-columns: 3.0fr 3.5fr  2.0fr;
+    grid-template-rows: 80px 80px 431px; 
     margin-right: 20%;
     margin-left: 20%;
 } 
@@ -41,31 +41,38 @@ body{
 #nav{
     font: bold;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     text-align: center;
     border: solid;
     margin-top: 5%;
 }
 #menu{
     border: solid;
-    grid-column: 2;
+    
+}
+#alldepartament{
+    grid-row: 2;
+    grid-column: 1;
+    border: solid;
 }
 #busca{
+    border: solid;  
+    grid-row: 2;
+    grid-column: 2;
+}
+#numero{
+    border: solid; 
+    grid-row: 2;
+    grid-column: 3; 
+}
+#alldep{
+    grid-row: 3;
+    grid-column: 1;
     border: solid;
 }
 #banner{
-    border: solid;
-}
-#prod1{
-    border: solid; 
-} 
-#prod2{
-    border: solid;
-}
-#prod3{
-    border: solid;
-}
-#prod4{
+    grid-row: 3;
+    grid-column: 2;
     border: solid;
 }
 .navbt{
@@ -81,4 +88,51 @@ body{
     height: 100px;
     width: 60px;
     background-color: rgb(68, 63, 63);
+}
+#produtos1{
+    display: flex;
+    margin-top: 2.5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
+    grid-template-rows: 5.0fr;
+    justify-content: space-between;
+}
+#setal{
+    position: absolute;   
+    top: 100ch;
+    left: 17.5%;
+}
+#setar{
+    position: absolute; 
+    top: 100ch;
+    left: 81.15%;
+}
+#prod1{
+    border: solid;
+    grid-column: 1;
+    grid-row: 4; 
+    height: 27vh; 
+    width: 27vh;
+} 
+#prod2{
+    grid-column: 2;
+    grid-row: 4;
+    border: solid;
+    height: 27vh; 
+    width: 27vh;
+}
+#prod3{
+    grid-column: 3;
+    grid-row: 4;
+    border: solid;
+    height: 27vh; 
+    width: 27vh;
+}
+#prod4{
+    grid-column: 4;
+    grid-row: 4;
+    border: solid;
+    height: 27vh; 
+    width: 27vh;
 }
