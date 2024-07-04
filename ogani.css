@@ -198,12 +198,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
+#like{ 
+    align-content: center;
+}
 #anuncio{
+    margin-top: 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 20%;
     margin-left: 20%;
-    grid-template-columns: 50.0fr 50.0fr;
+    grid-template-columns: 40.0fr 40.0fr;
     grid-template-rows: 20.0fr;
 }
 #tabela3{
