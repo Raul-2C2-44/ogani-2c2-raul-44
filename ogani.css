@@ -24,7 +24,7 @@ body{
     border: solid;
     display: grid;
     grid-template-columns: 3.0fr 3.5fr  2.0fr;
-    grid-template-rows: 80px 80px 431px; 
+    grid-template-rows: 80px 60px 431px; 
     margin-right: 20%;
     margin-left: 20%;
 } 
@@ -50,9 +50,25 @@ body{
 }
 #menu{
     border: solid;
-    
+    text-align: center;
+    align-content: center;
+}
+#menu i{
+    margin-right: 5%;
+    text-align: center;
+}
+#nmenu{
+    position: absolute;
+    left: 71.2%;
+}
+#nmenu1{
+    position: absolute;
+    left: 69.6%;
 }
 #alldepartament{
+    background-color: rgb(119, 173, 38);
+    color: aliceblue;
+    align-content: center;
     grid-row: 2;
     grid-column: 1;
     border: solid;
@@ -78,11 +94,12 @@ body{
     border: solid;
 }
 .navbt{
+    font-size: 125%;
     justify-content: space-around;
     transition: .1s;
 }
 .navbt:hover{
-   color: chartreuse;
+   color: rgb(119, 173, 38);
 }
 #linguagem{
     position: absolute;
@@ -119,6 +136,7 @@ body{
     left: 81.15%;
 }
 #prod1{
+    z-index: 99;
     border: solid;
     grid-column: 1;
     grid-row: 4; 
@@ -163,6 +181,7 @@ body{
     justify-content: space-between;
 }
 #produtosa{
+    text-align: center;
     margin-right: 20%;
     margin-left: 20%;
     grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
@@ -170,6 +189,25 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 8ch;
+}
+#like{
+    margin-top: 100%;
+    text-align: center;
+    margin-left: 1ch;
+    opacity: 0%;
+    transition: 0.4s;
+}
+#produtosb div:hover #like{
+    margin-top: 85%;
+    opacity: 100%;
+}
+#produtosa div:hover #like{
+    margin-top: 85%;
+    opacity: 100%;
+}
+#like:hover{
+    rotate: 360deg;
+    color: rgb(79, 255, 117);
 }
 #nameprod{
     border: solid;
@@ -182,6 +220,7 @@ body{
     text-align: center;
 }
 #produtosb{
+    text-align: center;
     margin-right: 20%;
     margin-left: 20%;
     grid-template-columns: 3.0fr 3.0fr 3.0fr 3.0fr;
@@ -226,7 +265,8 @@ body{
 #tabela div{
     margin-top: 2%;
     border: solid;
-    height: 100px;
+    height: 110px;
+    display: flex;
 }
 #ttabela{
     font-size: 130%;
@@ -243,10 +283,10 @@ body{
     margin-right: 20%;
     margin-left: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #blog div{
-    width: 30%;
+    width: 32%;
     height: 50ch;
     border: solid;
 }
