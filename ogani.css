@@ -23,7 +23,7 @@ body{
 #main{
     border: solid;
     display: grid;
-    grid-template-columns: 3.0fr 3.5fr  2.0fr;
+    grid-template-columns: 2.0fr 4.5fr  2.0fr;
     grid-template-rows: 80px 60px 431px; 
     margin-right: 20%;
     margin-left: 20%;
@@ -87,9 +87,15 @@ body{
     grid-column: 3; 
 }
 #alldep{
+    list-style: none;
+    font-size: 120%;
     grid-row: 3;
     grid-column: 1;
     border: solid;
+}
+#alldep li{
+    margin-left: 15%;
+    margin-top: 1.5ch;
 }
 #banner{
     grid-row: 3;
@@ -323,8 +329,18 @@ body{
     height: 30ch;
     border: solid;
 }
-
-
+#end1 li{
+    margin-top: 1ch;
+    list-style: none;
+    font-size: 120%;
+}
+#end2{
+   display: grid; 
+}
+#end2 li{
+    list-style: none; 
+    margin-top: 1ch; 
+}
 #subend{
     background-color:aliceblue;
     border-top: 40%;
