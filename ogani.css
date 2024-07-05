@@ -210,9 +210,86 @@ body{
     grid-template-columns: 40.0fr 40.0fr;
     grid-template-rows: 20.0fr;
 }
-#tabela3{
+
+
+#tabela{
+    margin-top: 8ch;
+    font-size: 120%;
+    display: grid;
     margin-right: 20%;
     margin-left: 20%;
-    grid-template-columns: 30.0fr 30.0fr 30fr;
+    grid-template-columns: 32% 2% 32% 2% 32%;
     grid-template-rows: 5fr 5fr 5fr 5fr;
+    
+}
+
+#tabela div{
+    margin-top: 2%;
+    border: solid;
+    height: 100px;
+}
+#ttabela{
+    font-size: 130%;
+}
+
+
+#blogt{
+    text-align: center;  
+    height: 10ch;
+    align-content: center;
+    font-size: 200%;
+}
+#blog{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+#blog div{
+    width: 30%;
+    height: 50ch;
+    border: solid;
+}
+#blognt{
+    margin-top: 5px;
+    font-size: 130%;
+}
+#blogtn{
+    font-size: 110%;
+    color: rgb(129, 129, 129);
+    list-style: none;
+    margin-top: 1ch;
+}
+#blogdt{
+    margin-right: 5%;
+    font-size: 120%;
+    color: rgb(192, 192, 192);
+    list-style: none;
+    margin-top: 1ch;
+}
+#ending{
+    margin-top: 10ch;
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    background-color:aliceblue;
+}
+#ending div{
+    margin-top: 10ch;
+    width: 30%;
+    height: 30ch;
+    border: solid;
+}
+
+
+#subend{
+    background-color:aliceblue;
+    border-top: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#subend div{
+    width: 45%;
+    height: 10ch;
+    border: solid;
 }
