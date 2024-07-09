@@ -5,6 +5,7 @@ body{
   
 }
 #topo{
+    background-color: rgb(226, 226, 226);
     height: 5ch;
     width: 100%;
     border: solid;
@@ -18,6 +19,27 @@ body{
 #tp2{
     width: 50%;
     text-align: right;
+}
+#lingua{
+    align-content: center;
+    text-align: start;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    position:absolute;
+    right: 26.5%;
+    top: 60.5px;
+    width: 6.5%;
+    height: 8ch;
+    transition: 0.4s;
+    opacity: 0%;
+}
+#lingua li:hover{
+    background-color: rgb(44, 44, 44);
+}
+#english:hover #lingua{
+   opacity: 100%;
+   top: 30.5px;
 }
 
 #main{
@@ -37,6 +59,7 @@ body{
     border: solid;   
 }
 #logo{
+    margin-top: 1ch;
     border: solid;
 }
 #nav{
@@ -66,12 +89,16 @@ body{
     left: 69.6%;
 }
 #alldepartament{
+    height: 8ch;
     background-color: rgb(119, 173, 38);
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     align-content: center;
     grid-row: 2;
     grid-column: 1;
     border: solid;
+}
+#alldepartament:active #alldep{
+    opacity: 0%;
 }
 #busca{
     align-content: center;
@@ -92,6 +119,9 @@ body{
     grid-row: 3;
     grid-column: 1;
     border: solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
 #alldep li{
     margin-left: 15%;
@@ -118,12 +148,6 @@ body{
     height: 60px;
     width: 80px;
     background-color: rgb(68, 63, 63);
-}
-#lingua{
-   transition: 1s;
-}
-#lingua:hover #linguagem{
-   opacity: 0;
 }
 #produtos1{
     display: flex;
@@ -286,6 +310,7 @@ body{
 
 
 #blogt{
+    
     text-align: center;  
     height: 10ch;
     align-content: center;
@@ -354,4 +379,8 @@ body{
     width: 45%;
     height: 10ch;
     border: solid;
+}
+#fundord:hover{
+    background-color:  rgb(119, 173, 38);
+    color: rgb(119, 173, 38);
 }
